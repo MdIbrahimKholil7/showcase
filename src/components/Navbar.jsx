@@ -110,14 +110,14 @@ const Navbar = ({ adminNav }) => {
               onClick={() => navigate(`/products/${"product-allVideo"}`)}
               className="text-md text-gray-400 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
             >
-              All Videos
+              Product Videos
             </h1>
             <div className="dropdown dropdown-hover">
               <h1
                 tabIndex={0}
                 className="text-md flex items-center gap-1 text-gray-400 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
               >
-                Men <FiChevronDown />
+                Clothing <FiChevronDown />
               </h1>
               <ul
                 tabIndex={0}
@@ -141,7 +141,7 @@ const Navbar = ({ adminNav }) => {
                 tabIndex={0}
                 className="text-md flex items-center gap-1 text-gray-400 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
               >
-                Women <FiChevronDown />
+                Electronics <FiChevronDown />
               </h1>
               <ul
                 tabIndex={0}
@@ -164,7 +164,7 @@ const Navbar = ({ adminNav }) => {
                 tabIndex={0}
                 className="text-md flex items-center gap-1 text-gray-400 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
               >
-                Kids <FiChevronDown />
+                Grocery <FiChevronDown />
               </h1>
               <ul
                 tabIndex={0}
@@ -187,7 +187,7 @@ const Navbar = ({ adminNav }) => {
                 tabIndex={0}
                 className="text-md flex items-center gap-1 text-gray-400 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
               >
-                Home & Kitchen <FiChevronDown />
+                AutoMobiles <FiChevronDown />
               </h1>
               <ul
                 tabIndex={0}
@@ -264,14 +264,14 @@ const Navbar = ({ adminNav }) => {
                 onClick={() => navigate(`/products/${"product-allVideo"}`)}
                 className="text-lg flex items-center justify-center text-gray-700 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
               >
-                All Videos
+                Product Videos
               </h1>
               <div className="dropdown dropdown-end">
                 <h1
                   tabIndex={0}
                   className="text-lg flex items-center justify-center text-gray-700 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
                 >
-                  Men <FiChevronDown />
+                  Clothing <FiChevronDown />
                 </h1>
                 <ul
                   tabIndex={0}
@@ -294,7 +294,7 @@ const Navbar = ({ adminNav }) => {
                   tabIndex={0}
                   className="text-lg flex items-center justify-center text-gray-700 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
                 >
-                  Women <FiChevronDown />
+                  Electronics <FiChevronDown />
                 </h1>
                 <ul
                   tabIndex={0}
@@ -317,7 +317,7 @@ const Navbar = ({ adminNav }) => {
                   tabIndex={0}
                   className="text-lg flex items-center justify-center text-gray-700 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
                 >
-                  Kids <FiChevronDown />
+                  Grocery <FiChevronDown />
                 </h1>
                 <ul
                   tabIndex={0}
@@ -340,7 +340,7 @@ const Navbar = ({ adminNav }) => {
                   tabIndex={0}
                   className="text-lg flex items-center justify-center text-gray-700 cursor-pointer hover:text-black transition-colors delay-75 ease-in-out"
                 >
-                  Home & Kitchen <FiChevronDown />
+                  AutoMobiles <FiChevronDown />
                 </h1>
                 <ul
                   tabIndex={0}

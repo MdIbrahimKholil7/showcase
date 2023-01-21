@@ -34,6 +34,7 @@ import Review from './pages/Review';
 import MobileRightBar from './components/ChatFile/MobileRightBar';
 import NotFound from './pages/NotFound';
 import AdminRoute from './utils/AdminRoute';
+import TermsCon from './components/payment/TermsCon';
 
 
 function App() {
@@ -142,6 +143,7 @@ function App() {
         <Route path="/products/:content" element={<Products />} />
         <Route path="/setupCompleted" element={<SetUpCompleted />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/payment/terms" element={<TermsCon />} />
         <Route path="/admindashboard" element={<Dashboard />} />
         <Route path="/product/review/:id" element={<Review />} />
         <Route path='*' element={<NotFound/>}/>
